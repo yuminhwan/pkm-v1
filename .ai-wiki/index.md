@@ -5,11 +5,34 @@
 
 ## 페이지 (tag 기준 클러스터링)
 
-> 아직 비어 있음 — `/쓰기`로 첫 outbox 글을 만들거나 `/수집`으로 raw 자료를 던지면 여기 한 줄씩 박힌다. tag 섹션은 새 태그가 등장하면 알파벳 순으로 추가된다.
+### 지식관리
+- [2026-05-24-기록-습관](../outbox/2026-05-24-기록-습관.md) — 지식관리를 위한 기록을 잘하고 싶은데 어떻게 해야할지 잘 모르겠다. #지식관리 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+- [2026-05-24-1500-기록습관](../.inbox/2026-05-24-1500-기록습관.md) — 이 글은 업무·학습 기록 습관이 잘 유지되지 않는 인지과학적 원인, reflective journaling의 성과 효과, generation effect·retrieval practice 등을 외부 연구 출처와 함께 정리한다. #지식관리 #기록습관 #학습과학 [type: raw]
+- [2026-05-24-1505-기록습관-방법](../.inbox/2026-05-24-1505-기록습관-방법.md) — 이 글은 기록 습관을 잘 만드는 방법으로 Zettelkasten(노트 구조), CODE/PARA(흐름), Tiny Habits(습관 형성), Spaced Repetition(재방문) 네 층위를 외부 연구와 함께 정리한다. #지식관리 #기록습관 #학습과학 #습관형성 [type: raw]
+
+### 프로그래밍언어
+- [2026-05-24-java-vs-kotlin](../outbox/2026-05-24-java-vs-kotlin.md) — 자바에 대해서는 익숙하지만 코틀린에 대해서 익숙하지 않다. 자바와 코틀린의 문법이나 원리의 차이점에 대해서 파악해보고 싶다 #프로그래밍언어 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+- [2026-05-24-1528-kotlin-vs-java](../.inbox/2026-05-24-1528-kotlin-vs-java.md) — 이 글은 Kotlin 공식문서의 "Comparison to Java" 페이지로, Kotlin이 해결한 Java의 문제점, Java에만 있는 기능, Kotlin에만 있는 기능을 항목별 링크와 함께 다룬다. #프로그래밍언어 #kotlin #java #언어비교 [type: raw]
+- [2026-05-24-1535-문자열-자바코틀린](../.inbox/2026-05-24-1535-문자열-자바코틀린.md) — 이 글은 Kotlin 공식 "Strings in Java and Kotlin" 마이그레이션 가이드로, 문자열 연결·빌드·collection으로부터 생성·blank 기본값·치환·split·substring·multiline 처리에 대해 Java와 Kotlin 코드 예시를 나란히 다룬다. #프로그래밍언어 #kotlin #java #문자열 #언어비교 [type: raw]
+- [2026-05-24-1536-컬렉션-자바코틀린](../.inbox/2026-05-24-1536-컬렉션-자바코틀린.md) — 이 글은 Kotlin 공식 "Collections in Java and Kotlin" 가이드로, 동일/유사/Kotlin 전용 연산 글로서리, mutability, covariance, ranges, comparator, sequences, 그룹/필터/변환 등을 Java Stream API와 비교해 다룬다. #프로그래밍언어 #kotlin #java #컬렉션 #언어비교 [type: raw]
+- [2026-05-24-1537-널안전성-자바코틀린](../.inbox/2026-05-24-1537-널안전성-자바코틀린.md) — 이 글은 Kotlin 공식 "Nullability in Java and Kotlin" 가이드로, nullable 타입, platform 타입, definitely non-nullable, 함수 결과 null 체크, Elvis 연산자, 안전 캐스트(`as?`) 등을 Java 코드와 비교해 다룬다. #프로그래밍언어 #kotlin #java #널안전성 #언어비교 [type: raw]
+- [2026-05-24-1540-코틀린-입문-mangkyu](../.inbox/2026-05-24-1540-코틀린-입문-mangkyu.md) — 이 글은 코틀린 입문자가 알아야 할 내용을 모은 한국어 블로그 글로, 설계 목적·컴파일러·불변성·null 처리·플랫폼 타입·object·by·lazy·연산자 오버로딩·함수형 메서드·시퀀스·scope function·확장 함수·inline/reified·data/sealed 클래스·스프링 결합까지 다룬다. #프로그래밍언어 #kotlin #java #코틀린입문 #언어비교 [type: raw]
 
 ## Log (시간 역순 append-only)
 
-> 아직 비어 있음 — `/쓰기`·`/수집`·`/일일회고` 호출마다 한 줄씩 박힌다. 가장 최근 항목이 맨 위.
+- 2026-05-24 15:40: `/수집` ingest 2026-05-24-1540-코틀린-입문-mangkyu.md (https://mangkyu.tistory.com/358)
+- 2026-05-24 15:37: `/수집` ingest 2026-05-24-1537-널안전성-자바코틀린.md (https://kotlinlang.org/docs/java-to-kotlin-nullability-guide.html)
+- 2026-05-24 15:36: `/수집` ingest 2026-05-24-1536-컬렉션-자바코틀린.md (https://kotlinlang.org/docs/java-to-kotlin-collections-guide.html)
+- 2026-05-24 15:35: `/수집` ingest 2026-05-24-1535-문자열-자바코틀린.md (https://kotlinlang.org/docs/java-to-kotlin-idioms-strings.html)
+- 2026-05-24 15:28: `/수집` ingest 2026-05-24-1528-kotlin-vs-java.md (https://kotlinlang.org/docs/comparison-to-java.html)
+- 2026-05-24 15:21: `/쓰기` new 2026-05-24-java-vs-kotlin.md ("자바에 대해서는 익숙하지만 코틀린에 대해서 익숙하지 않다. 자바와 코틀린의 문법이나 원리의 차이점에 대해서 파악해보고 싶다")
+- 2026-05-24 15:05: `/수집` ingest 2026-05-24-1505-기록습관-방법.md (텍스트 입력 — AI가 web으로 수집한 방법론·근거 정리)
+- 2026-05-24 15:00: `/수집` ingest 2026-05-24-1500-기록습관.md (텍스트 입력 — AI가 web으로 수집한 연구·근거 정리)
+- 2026-05-24 14:52: `/쓰기` new 2026-05-24-기록-습관.md ("지식관리를 위한 기록을 잘하고 싶은데 어떻게 해야할지 잘 모르겠다.")
 
 ## 파일 한 줄 형식
 
