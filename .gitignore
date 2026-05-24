@@ -1,11 +1,13 @@
-# PKM v1 — fork한 사람의 raw 자료는 push되지 않게
+# PKM v1
 # .inbox/는 raw 던지는 자리 (스크린샷·녹취록·외부 글 등) — 본인 사적 자료
 # outbox/는 본인이 직접 쓰는 글이므로 commit하고 싶을 수도, 아닐 수도 있음 — 본인이 결정
+#
+# owner(yuminhwan)는 다중 기기 동기화를 위해 .inbox/도 commit한다.
+# fork 받아서 본인 raw가 새지 않게 막고 싶다면 아래 두 줄 주석을 풀어라:
+# .inbox/*
+# !.inbox/README.md
 
-.inbox/*
-!.inbox/README.md
-
-# 일일회고가 webhook 없을 때 .inbox/에 저장하는 결과물도 자동으로 제외됨
+# 일일회고가 webhook 없을 때 .inbox/에 저장하는 결과물도 함께 동기화된다
 
 # OS·에디터
 .DS_Store
