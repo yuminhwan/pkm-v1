@@ -22,8 +22,20 @@
 - [2026-05-24-1537-널안전성-자바코틀린](../.inbox/2026-05-24-1537-널안전성-자바코틀린.md) — 이 글은 Kotlin 공식 "Nullability in Java and Kotlin" 가이드로, nullable 타입, platform 타입, definitely non-nullable, 함수 결과 null 체크, Elvis 연산자, 안전 캐스트(`as?`) 등을 Java 코드와 비교해 다룬다. #프로그래밍언어 #kotlin #java #널안전성 #언어비교 [type: raw]
 - [2026-05-24-1540-코틀린-입문-mangkyu](../.inbox/2026-05-24-1540-코틀린-입문-mangkyu.md) — 이 글은 코틀린 입문자가 알아야 할 내용을 모은 한국어 블로그 글로, 설계 목적·컴파일러·불변성·null 처리·플랫폼 타입·object·by·lazy·연산자 오버로딩·함수형 메서드·시퀀스·scope function·확장 함수·inline/reified·data/sealed 클래스·스프링 결합까지 다룬다. #프로그래밍언어 #kotlin #java #코틀린입문 #언어비교 [type: raw]
 
+### 메시징
+- [kafka-urp](../outbox/2026-05-26-kafka-urp.md) — Kafka URP #메시징 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+
+### 검색엔진
+- [opensearch](../outbox/2026-05-26-opensearch.md) — OpenSearch(ElasticSearch)에 대한 개념 및 원리 학습을 하고자 한다. #검색엔진 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+
 ## Log (시간 역순 append-only)
 
+- 2026-05-26 00:00: `/쓰기` new 2026-05-26-kafka-urp.md ("Kafka URP")
+- 2026-05-26 00:00: `/쓰기` new 2026-05-26-opensearch.md ("OpenSearch(ElasticSearch)에 대한 개념 및 원리 학습을 하고자 한다.")
 - 2026-05-24 15:40: `/수집` ingest 2026-05-24-1540-코틀린-입문-mangkyu.md (https://mangkyu.tistory.com/358)
 - 2026-05-24 15:37: `/수집` ingest 2026-05-24-1537-널안전성-자바코틀린.md (https://kotlinlang.org/docs/java-to-kotlin-nullability-guide.html)
 - 2026-05-24 15:36: `/수집` ingest 2026-05-24-1536-컬렉션-자바코틀린.md (https://kotlinlang.org/docs/java-to-kotlin-collections-guide.html)
