@@ -13,7 +13,8 @@
 - [2026-05-24-1505-기록습관-방법](../.inbox/2026-05-24-1505-기록습관-방법.md) — 이 글은 기록 습관을 잘 만드는 방법으로 Zettelkasten(노트 구조), CODE/PARA(흐름), Tiny Habits(습관 형성), Spaced Repetition(재방문) 네 층위를 외부 연구와 함께 정리한다. #지식관리 #기록습관 #학습과학 #습관형성 [type: raw]
 
 ### 프로그래밍언어
-- [2026-05-24-java-vs-kotlin](../outbox/2026-05-24-java-vs-kotlin.md) — 자바에 대해서는 익숙하지만 코틀린에 대해서 익숙하지 않다. 자바와 코틀린의 문법이나 원리의 차이점에 대해서 파악해보고 싶다 #프로그래밍언어 [type: reflected]
+- [2026-05-26-2153-kotlin-result](../.inbox/2026-05-26-2153-kotlin-result.md) — Kotlin의 `runCatching`과 `Result`를 사용해 에러 핸들링을 다른 클래스에 위임하는 방법을 토스 기술블로그에서 정리한다. #kotlin #예외처리 #result [type: raw]
+- [2026-05-24-kotlin-예외처리](../outbox/2026-05-24-kotlin-예외처리.md) — 코틀린의 예외 처리를 자바와 비교하면서 하나씩 알아보고 싶다 #프로그래밍언어 [type: reflected]
   - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
   - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
 - [2026-05-24-1528-kotlin-vs-java](../.inbox/2026-05-24-1528-kotlin-vs-java.md) — 이 글은 Kotlin 공식문서의 "Comparison to Java" 페이지로, Kotlin이 해결한 Java의 문제점, Java에만 있는 기능, Kotlin에만 있는 기능을 항목별 링크와 함께 다룬다. #프로그래밍언어 #kotlin #java #언어비교 [type: raw]
@@ -23,17 +24,26 @@
 - [2026-05-24-1540-코틀린-입문-mangkyu](../.inbox/2026-05-24-1540-코틀린-입문-mangkyu.md) — 이 글은 코틀린 입문자가 알아야 할 내용을 모은 한국어 블로그 글로, 설계 목적·컴파일러·불변성·null 처리·플랫폼 타입·object·by·lazy·연산자 오버로딩·함수형 메서드·시퀀스·scope function·확장 함수·inline/reified·data/sealed 클래스·스프링 결합까지 다룬다. #프로그래밍언어 #kotlin #java #코틀린입문 #언어비교 [type: raw]
 
 ### 메시징
+- [2026-05-26-2130-kafka-아키텍처](../.inbox/2026-05-26-2130-kafka-아키텍처.md) — Kafka 파티션-브로커 동기화, 토픽 관계, ISR, 컨슈머 그룹, 파티션 할당 전략을 Confluent 공식 문서 기준으로 정리한다. #kafka #파티션 #브로커 #아키텍처 [type: raw]
+- [2026-05-26-2123-kafka-urp-운영](../.inbox/2026-05-26-2123-kafka-urp-운영.md) — Kafka URP 개념·발생 원인·진단 방법·대처 방안을 Apache Kafka 공식 문서 및 Confluent 문서 기준으로 정리한다. #kafka #urp #운영 #메시징 [type: raw]
+- [2026-05-26-2114-kafka-urp](../.inbox/2026-05-26-2114-kafka-urp.md) — Kafka Under Replicated Partitions(URP)의 개념, 발생 원인, 모니터링 방법, 대처 방안을 공식 문서 기준으로 정리한다. #kafka #urp #메시징 [type: raw]
 - [kafka-urp](../outbox/2026-05-26-kafka-urp.md) — Kafka URP #메시징 [type: reflected]
   - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
   - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
 
 ### 검색엔진
-- [opensearch](../outbox/2026-05-26-opensearch.md) — OpenSearch(ElasticSearch)에 대한 개념 및 원리 학습을 하고자 한다. #검색엔진 [type: reflected]
+- [2026-05-26-2156-opensearch-개념](../.inbox/2026-05-26-2156-opensearch-개념.md) — OpenSearch/Elasticsearch의 인덱스, 샤드(프라이머리/레플리카), 클러스터, 노드, 매핑 핵심 개념을 공식 문서 기준으로 정리한다. #opensearch #인덱스 #샤드 #검색엔진 [type: raw]
+- [opensearch-샤드-인덱스](../outbox/2026-05-26-opensearch-샤드-인덱스.md) — OpenSearch의 샤드와 인덱스 개념을 하나씩 알아보고 싶다 #검색엔진 [type: reflected]
   - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
   - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
 
 ## Log (시간 역순 append-only)
 
+- 2026-05-26 21:56: `/수집` ingest 2026-05-26-2156-opensearch-개념.md (텍스트 입력 — OpenSearch/Elasticsearch 핵심 개념 정리)
+- 2026-05-26 21:53: `/수집` ingest 2026-05-26-2153-kotlin-result.md (https://toss.tech/article/kotlin-result)
+- 2026-05-26 21:30: `/수집` ingest 2026-05-26-2130-kafka-아키텍처.md (텍스트 입력 — Kafka 파티션-브로커 동기화 및 토픽 관계 아키텍처)
+- 2026-05-26 21:23: `/수집` ingest 2026-05-26-2123-kafka-urp-운영.md (텍스트 입력 — Kafka URP 운영 중 발생 시 개념·원인·대처 가이드)
+- 2026-05-26 21:14: `/수집` ingest 2026-05-26-2114-kafka-urp.md (텍스트 입력 — 공식 문서 기준 Kafka URP 학습 자료)
 - 2026-05-26 00:00: `/쓰기` new 2026-05-26-kafka-urp.md ("Kafka URP")
 - 2026-05-26 00:00: `/쓰기` new 2026-05-26-opensearch.md ("OpenSearch(ElasticSearch)에 대한 개념 및 원리 학습을 하고자 한다.")
 - 2026-05-24 15:40: `/수집` ingest 2026-05-24-1540-코틀린-입문-mangkyu.md (https://mangkyu.tistory.com/358)
