@@ -30,6 +30,9 @@
 - [kafka-urp](../outbox/2026-05-26-kafka-urp.md) — Kafka URP #메시징 [type: reflected]
   - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
   - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+- [kafka-acks](../outbox/2026-05-26-kafka-acks.md) — 카프카 acks 옵션에 대해 학습하고자 함. #kafka #메시징 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
 
 ### 검색엔진
 - [2026-05-26-2156-opensearch-개념](../.inbox/2026-05-26-2156-opensearch-개념.md) — OpenSearch/Elasticsearch의 인덱스, 샤드(프라이머리/레플리카), 클러스터, 노드, 매핑 핵심 개념을 공식 문서 기준으로 정리한다. #opensearch #인덱스 #샤드 #검색엔진 [type: raw]
@@ -37,8 +40,15 @@
   - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
   - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
 
+### 협업
+- [2026-05-27-협업-함께](../outbox/2026-05-27-협업-함께.md) — 협업을 어떻게 하면 잘 할 수 있을 지 생각해보고 적용해본다 #협업 [type: reflected]
+  - 메타인지: _(pending — /일일회고가 본문 보고 채움)_
+  - 열린 질문: _(pending — /일일회고가 본문 보고 채움)_
+
 ## Log (시간 역순 append-only)
 
+- 2026-05-27 20:39: `/쓰기` new 2026-05-27-협업-함께.md ("협업을 어떻게 하면 잘 할 수 있을 지 생각해보고 적용해본다")
+- 2026-05-26 22:00: `/쓰기` new 2026-05-26-kafka-acks.md ("카프카 acks 옵션에 대해 학습하고자 함.")
 - 2026-05-26 21:56: `/수집` ingest 2026-05-26-2156-opensearch-개념.md (텍스트 입력 — OpenSearch/Elasticsearch 핵심 개념 정리)
 - 2026-05-26 21:53: `/수집` ingest 2026-05-26-2153-kotlin-result.md (https://toss.tech/article/kotlin-result)
 - 2026-05-26 21:30: `/수집` ingest 2026-05-26-2130-kafka-아키텍처.md (텍스트 입력 — Kafka 파티션-브로커 동기화 및 토픽 관계 아키텍처)
